@@ -2,37 +2,34 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.far-right {
+  float: right;
+  margin: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.center {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.dark {
+  background-color: #333 !important;
+  color: #fff !important;
+  border-color:  #fff !important;
+}
+.light {
+  background-color: #fff !important;
+  color: #333 !important;
+  border-color: #333 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+/* https://stackoverflow.com/questions/19092014/css-float-right-not-working-correctly
+   https://blog.hubspot.com/website/center-div-css
+   https://mwichary.medium.com/dark-theme-in-a-day-3518dde2955a
+   https://herculino.com/en/blog/semantic_ui_darkmode_part1.html
+
+*/
+

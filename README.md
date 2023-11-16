@@ -1,3 +1,7 @@
+# Description
+This is an application that allows you to make a list of Todo. It was styled with Semantic UI and was based off of this Github repository, [repository](https://github.com/WebDevSimplified/react-todo-list).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
