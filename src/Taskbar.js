@@ -1,8 +1,8 @@
-import {useState } from "react"
+import {memo, useState } from "react"
 import { Form, Input, Segment } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css';
 
-const Taskbar = ({ onSubmit }) => {
+const Taskbar = memo(function({ onSubmit }) {
     const [newItem, setNewItem] = useState("");
     function handleSubmit(e) {
         e.preventDefault()
@@ -28,5 +28,5 @@ const Taskbar = ({ onSubmit }) => {
         </Form>
     );
 
-}
+});
 export default Taskbar;
